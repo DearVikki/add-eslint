@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "babel-eslint": "latest",
+    "eslint": "latest",
+    "eslint-plugin-vue": "latest",
+    "eslint-plugin-prettier": "latest",
+    "eslint-config-prettier": "latest",
+    "prettier": "latest"
+  }
+}

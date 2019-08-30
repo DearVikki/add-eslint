@@ -1,0 +1,19 @@
+{
+  "plugins": [],
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/strongly-recommended",
+    "plugin:prettier/recommended"
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "commonjs": true
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {},
+    "parser": "babel-eslint"
+  },
+  "settings": {}
+}
