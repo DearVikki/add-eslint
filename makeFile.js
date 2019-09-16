@@ -87,9 +87,7 @@ module.exports = async ({ env, extendConfigs, styleConfigs, usePrettier }) => {
   const spinner2 = ora('Installing dependencies..').start();
   try {
     await installDependencies();
-    spinner2.succeed(
-      'Add eslint configs successfully! Plz reload the editor to ensure Eslint applys normally.'
-    );
+    spinner2.succeed('Done! Plz reload the editor to ensure Eslint applys.');
   } catch (e) {
     console.log(chalk.red(e.message));
     spinner.fail('Task failed >.<');
