@@ -1,6 +1,6 @@
 # Add-Eslint-Script
 
-Generate your eslint & prettier config files in 30 seconds! Support Node, React and Vue projects.
+Generate your eslint & prettier config files in 30 seconds! Support Node, React and Vue projects..
 
 ![example.png](https://raw.githubusercontent.com/DearVikki/add-eslint/master/assets/example.gif)
 
